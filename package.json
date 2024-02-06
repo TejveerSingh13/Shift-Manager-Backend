@@ -1,0 +1,30 @@
+{
+  "name": "shift-manager-backend",
+  "version": "1.0.0",
+  "description": "Backend for the Shift-Manager Application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TejveerSingh13/Shift-Manager-Backend.git"
+  },
+  "author": "TejveerSingh13",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TejveerSingh13/Shift-Manager-Backend/issues"
+  },
+  "homepage": "https://github.com/TejveerSingh13/Shift-Manager-Backend#readme",
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^8.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
